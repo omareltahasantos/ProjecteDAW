@@ -1,0 +1,330 @@
+.fuente-1{font-family:"Poppins";}
+*{
+    font-family:"Poppins";
+}
+.cabecera{
+    background-color: #222729;
+}
+.paginasCabecera{
+    color:white;
+}
+#buscador{
+    background-color:#595F61;
+    border: 0;
+    color: rgb(216, 214, 214) !important;
+    
+}
+#buscador::-webkit-input-placeholder {
+    color: rgb(243, 243, 243) !important;
+    }
+
+    input:focus, input#buscador:focus {
+
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+#barras{
+    color: white;
+}
+
+#barras:hover{
+    color: rgb(45,200,80);
+}
+
+#menu{
+    color: white;
+}
+
+#menu:hover{
+    color: rgb(45,200,80);
+}
+#calendar{
+    color: white;
+}
+
+#calendar:hover{
+    color: rgb(45,200,80);
+}
+#lazamiento{
+    color: white;
+}
+
+#lanzamiento:hover{
+    color: rgb(45,200,80);
+}
+#login{
+    color: white;
+}
+
+#login:hover{
+    color: rgb(45,200,80);
+}
+#acceder{
+    color: white;
+}
+
+#acceder:hover{
+    color: rgb(45,200,80);
+}
+#cart{
+    color: white;
+}
+
+#cart:hover{
+    color: rgb(45,200,80);
+}
+#carro{
+    color: white;
+}
+
+#carro:hover{
+    color: rgb(45,200,80);
+}
+#submit{
+    border: 0;
+}
+
+.btnVermas{
+    background-color: transparent;
+    border: transparent;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+
+
+    .btnVermas:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transition: left .5s;
+    }
+    .btnVermas:hover:after {
+    left: 0;
+    }
+.img-ofertas{
+    width: 200px;
+    height: 300px;
+}
+.titlevideogames{
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+}
+.titlevideogames:link{
+    text-decoration: none;
+}
+.titlevideogames:hover, .titlevideogames:focus{
+    text-decoration: none;
+    background-size: 100% 2px;
+    color: black;
+}
+
+
+
+
+.categoria{
+    font-size: 13px;
+}
+.price{
+    font-size: 20px;
+}
+.botonanadir{
+    background-color:#5AD40E;
+    border: none;
+}
+
+.carro{
+    color:white;
+}
+.menu-sidebar{
+    color: #FFFAFA;
+    font-size: 18px;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+}
+.menu-sidebar:hover, .menu-sidebar:focus{
+    color: #5AD40E;
+    text-decoration: none;
+    background-size: 100% 2px;
+  
+}
+.menu-sidebar:link{
+    list-style: none;
+    text-decoration: none;
+    
+}
+nav#sidebar{
+    background-color: #222729;
+}
+
+a.enlace:link{
+    list-style: none;
+    text-decoration: none;
+}
+a.enlace:hover, a.enlace:focus{
+    color: #5AD40E;
+    text-decoration: none;
+    background-size: 100% 2px;
+}
+a.enlace{
+    color: white;
+}
+a.Vermas:link{
+    list-style: none;
+    text-decoration: none;
+}
+a.Vermas{
+    color: #333333;
+}
+/*font-family: 'Poppins', sans-serif;*/
+#sombra{
+    -webkit-box-shadow: 3px 7px 29px 5px rgba(0,0,0,0.27);
+    -moz-box-shadow: 3px 7px 29px 5px rgba(0,0,0,0.27);
+    box-shadow: 3px 7px 29px 5px rgba(0,0,0,0.27);      
+}
+
+#pushbar-close{
+    text-decoration: none;
+    background-color: transparent;
+    background: none;
+    border: none;
+    color: white;
+}
+.itembreadcrumb{
+    font-size: 14px;
+}
+#informacion{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 19px;
+}
+#Pago{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 19px; 
+}
+#comentario{
+    font-family:"Poppins";
+    font-weight: lighter;
+    font-size: 15px;  
+}
+#tarjetas{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 15px; 
+}
+#ExpiracionMonth{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 15px; 
+}
+#ExpiracionYear{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 15px; 
+}
+#email::-webkit-input-placeholder {
+    color: rgb(129, 129, 129) !important;
+    }
+#newsletter::-webkit-input-placeholder {
+    color: rgb(129, 129, 129) !important;
+    }
+#direccionEnvio{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 19px;
+}
+.volverCesta{
+    font-family:"Poppins";
+    font-weight: lighter;
+    font-size: 17px;
+}
+.boton_personalizado2{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #5AD40E;
+    border: 2px solid #5AD40E;
+  }
+  .boton_personalizado2:hover{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+  }
+
+  .juego-cesta{
+    width: 90px;
+    height: 90px;
+}
+.titulojuego-cesta{
+    font-family:"Poppins";
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+.linktitulojuego-cesta{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+    color: black;
+}
+.linktitulojuego-cesta:link{
+    text-decoration: none;
+}
+.linktitulojuego-cesta:hover, .linktitulojuego-cesta:focus{
+    text-decoration: none;
+    background-size: 100% 2px;
+    color: black;
+}
+
+.preciocart{
+    font-family:"Poppins";
+    font-weight: 400;
+    font-size: 17px;
+}
+.subTotalcart{
+    font-family:"Poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+.Totalcart{
+    font-family:"Poppins";
+    font-weight: 500;
+    font-size: 17px;
+}
+.Totalcartprice{
+    font-family:"Poppins";
+    font-weight: 600;
+    font-size: 20px;
+}
+.Subtotalcart{
+    font-family:"Poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
